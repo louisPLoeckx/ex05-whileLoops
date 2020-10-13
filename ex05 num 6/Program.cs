@@ -18,7 +18,7 @@ namespace ex05_num_6
             int width = int.Parse(Console.ReadLine());
             Console.Write("Please enter the height of the square: ");
             int height = int.Parse(Console.ReadLine());
-
+            width *= 2;
             string endLine = new string(star, width);
             Console.WriteLine(endLine);
             for (int h = 0; h < height; h++)
